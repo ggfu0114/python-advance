@@ -24,4 +24,4 @@ def list_albums():
 def main_page():
     print('main_page')
     pass
-f=url_register('/main')(main_page)
+url_register('/main')(main_page)
